@@ -1,14 +1,14 @@
 # AutoMozJPEG Compressor
-A high-performance, multithreaded image compression utility built in Python and powered by the open-source MozJPEG encoder (© Mozilla Foundation and contributors).
+A high-performance, multithreaded image compression utility built in Python and powered by the open-source MozJPEG encoder (© Mozilla Foundation and contributors). <br/>
 Designed by Centenarium, assisted by ChatGPT and Gemini
-
+<br/>
 MozJPEG is an open-source JPEG encoder developed by the Mozilla Foundation and contributors.
 MozJPEG and Mozilla are trademarks of the Mozilla Foundation.
 
 This project is an independent tool that uses the MozJPEG encoder and is not affiliated with, endorsed by, or sponsored by Mozilla.
 
 ## Project Overview
-This project includes the necessary files for running the main **compressor.exe** program.
+This project includes the necessary files for running the main **compressor.exe** program. <br/>
 Both **compressor.exe** and **cjpeg.exe ** (the MozJPEG driver) must be kept in the same directory. 
 
 Key features:
@@ -20,9 +20,9 @@ Key features:
 - Optional passthrough of non-image files
 
 Supported image types:
-- .png
-- .jpg
-- .jpeg
+- ```.png```
+- ```.jpg```
+- ```.jpeg```
 
 Unsupported files may be optionally copied over unchanged. 
 
@@ -38,16 +38,15 @@ All images found therein will be pooled for compression upon approval.
 <br/>
 
 
-
 ### Steps
 
-1. Launch **compressor.exe**. 
+1. Launch **compressor.exe**. <br/>
 (Or open CMD in your folder and run `python compressor.py` if using the script. Check dependencies below). 
-2. Paste desired path ("C:\Users\your_user\your_target_directory_here") or press Enter to select
+2. Paste desired path ("C:\Users\your_user\your_target_directory_here") or <br/> press Enter to select
 all images from current directory.
-3. Type desired compression quality or press Enter to go with the default 87. The lower the number, 
+3. Type desired compression quality or press Enter to go with the default 87. <br/> The lower the number, 
 the greater the compression. Recommended values for visual fidelity are anything north of 86
-4. Choose whether to copy all non-image files into a 'non-images' folder alongside the compressed output. 
+4. Choose whether to copy all non-image files into a 'non-images' folder alongside the compressed output. <br/>
 No compression will be applied to unsupported file types.
 5. Confirm to begin compression. This may take a while.
 
@@ -70,7 +69,7 @@ Recommended layout:
 ```
 
 ## Why?
-This was designed for tackling the archival and preservation of a large personal collection of images. Their immense size (14gb+) made it difficult to store them across devices. Using this script
+This was designed for tackling the archival and preservation of a large personal collection of images. <br/> Their immense size (14gb+) made it difficult to store them across devices. Using this script
 I was able to compress them all to 20-30% of their original size while maintaining all visual fidelity and image dimensions. 
 
 
@@ -80,8 +79,8 @@ If using compressor.exe:
 
 You only need:
 
-    Windows 10 / 11
-    MozJPEG (cjpeg.exe) placed in the same directory as compressor.exe
+- Windows 10 / 11
+- MozJPEG (cjpeg.exe) placed in the same directory as compressor.exe
 
 No Python installation is required.
 
