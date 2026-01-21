@@ -32,8 +32,11 @@ or simply paste your desired compression path (see Step 2). <br/>
 All images found therein will be pooled for compression upon approval.
 
 <br/>
-![Compressor UI](sc1.png) 
+
+![Compressor UI](sc1.png)
+
 <br/>
+
 
 
 ### Steps
