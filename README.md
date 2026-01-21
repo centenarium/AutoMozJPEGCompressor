@@ -28,13 +28,15 @@ Unsupported files may be optionally copied over unchanged.
 
 ## Usage
 You may add all images you wish to compress to the same directory in no specific fashion
-or simply paste your desired compression path (see Step 2).
+or simply paste your desired compression path (see Step 2). <br/>
 All images found therein will be pooled for compression upon approval.
 
+<br/>
+![Compressor UI](sc1.png) 
+<br/>
 
-![Compressor UI](sc1.png)
 
-
+### Steps
 
 1. Launch **compressor.exe**. 
 (Or open CMD in your folder and run `python compressor.py` if using the script. Check dependencies below). 
@@ -46,10 +48,10 @@ the greater the compression. Recommended values for visual fidelity are anything
 No compression will be applied to unsupported file types.
 5. Confirm to begin compression. This may take a while.
 
+<br/>
+
 A 'compressed_output' folder will be created alongside the source directory. 
 Repeated runs will not override past results.
-
-![Compressor result](sc2.png)
 
 To abort safely, press Ctrl+C. Closing the window may leave background processes running.
 
@@ -91,19 +93,19 @@ https://www.python.org/downloads/
 
 Verify:
 
-python --version
+```python --version```
 
 2. Pip (comes with Python)
 
 Verify:
 
-pip --version
+```pip --version```
 
 3. tqdm (progress bar)
 
 Install:
 
-pip install tqdm
+```pip install tqdm```
 
 4. MozJPEG (cjpeg)
 
