@@ -9,7 +9,7 @@ This project is an independent tool that uses the MozJPEG encoder and is not aff
 
 ## Project Overview
 This project includes the necessary files for running the main **compressor.exe** program. <br/>
-Both **compressor.exe** and **cjpeg.exe ** (the MozJPEG driver) must be kept in the same directory. 
+Both **compressor.exe** and **cjpeg.exe** (the MozJPEG driver) must be kept in the same directory. 
 
 Key features:
 
