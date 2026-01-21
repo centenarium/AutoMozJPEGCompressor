@@ -41,7 +41,7 @@ All images found therein will be pooled for compression upon approval.
 
 1. Launch **compressor.exe**. <br/>
 (Or open CMD in your folder and run `python compressor.py` if using the script. Check dependencies below). 
-2. Paste desired path ```("C:\Users\your_user\your_target_directory_here")``` or <br/> press Enter to select all images from current directory.
+2. Paste desired path ```(e.g., "C:\Users\your_user\your_target_directory_here")``` or <br/> press Enter to select all images from current directory.
 3. Type desired compression quality or press Enter to go with the default 87. <br/> The lower the number, 
 the greater the compression. <br/> Recommended values for visual fidelity are anything north of 86
 4. Choose whether to copy all non-image files into a 'non-images' folder alongside the compressed output. <br/>
