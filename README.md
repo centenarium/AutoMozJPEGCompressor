@@ -1,7 +1,7 @@
 # AutoMozJPEG Compressor
 A high-performance, multithreaded image compression utility built in Python and powered by the open-source MozJPEG encoder (© Mozilla Foundation and contributors). <br/>
 Designed by Centenarium, assisted by ChatGPT and Gemini
-<br/>
+<br/> <br/>
 MozJPEG is an open-source JPEG encoder developed by the Mozilla Foundation and contributors.
 MozJPEG and Mozilla are trademarks of the Mozilla Foundation.
 
@@ -37,15 +37,13 @@ All images found therein will be pooled for compression upon approval.
 
 <br/>
 
-
 ### Steps
 
 1. Launch **compressor.exe**. <br/>
 (Or open CMD in your folder and run `python compressor.py` if using the script. Check dependencies below). 
-2. Paste desired path ("C:\Users\your_user\your_target_directory_here") or <br/> press Enter to select
-all images from current directory.
+2. Paste desired path ```("C:\Users\your_user\your_target_directory_here")``` or <br/> press Enter to select all images from current directory.
 3. Type desired compression quality or press Enter to go with the default 87. <br/> The lower the number, 
-the greater the compression. Recommended values for visual fidelity are anything north of 86
+the greater the compression. <br/> Recommended values for visual fidelity are anything north of 86
 4. Choose whether to copy all non-image files into a 'non-images' folder alongside the compressed output. <br/>
 No compression will be applied to unsupported file types.
 5. Confirm to begin compression. This may take a while.
@@ -55,7 +53,7 @@ No compression will be applied to unsupported file types.
 A 'compressed_output' folder will be created alongside the source directory. 
 Repeated runs will not override past results.
 
-To abort safely, press Ctrl+C. Closing the window may leave background processes running.
+To abort safely, press Ctrl+C. Closing the window during compression may leave background processes running.
 
 Recommended layout:
 
