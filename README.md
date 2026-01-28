@@ -26,7 +26,7 @@ Unsupported files may be optionally copied over unchanged.
 You may add all images you wish to compress to the same directory in no specific fashion
 or simply paste your desired compression path (see Step 2). <br/>
 All images found therein will be pooled for compression upon approval.
-Both ```compressor.exe``` and ```cjpeg.exe``` must be kept in the same directory.
+Both ```automozjpeg.exe``` and ```cjpeg.exe``` must be kept in the same directory.
 
 <br/>
 
@@ -37,7 +37,7 @@ Both ```compressor.exe``` and ```cjpeg.exe``` must be kept in the same directory
 ### Steps
 
 1. Launch **compressor.exe**. <br/>
-(Or open CMD in your folder and run `python compressor.py` if using the script. Check dependencies below). 
+(Or open CMD in your folder and run `python automozjpeg.py` if using the script. Check dependencies below). 
 2. Paste desired path ```(e.g., "C:\Users\your_user\your_target_directory_here")``` or <br/> press Enter to select all images from current directory.
 3. Type desired compression quality or press Enter to go with the default 87. <br/> The lower the number, 
 the greater the compression. <br/> Recommended values for visual fidelity are anything north of 86
@@ -58,7 +58,7 @@ Recommended layout:
 ```
 📂 Project folder
 
-├─ ⚙️ compressor.exe   (Launcher)
+├─ ⚙️ automozjpeg.exe   (Launcher)
 ├─ 🧩 cjpeg.exe        (MozJPEG binary)
 └─ 📂 input_images     (Source images; folder hierarchy preserved in output)
    └─ ...
@@ -71,12 +71,12 @@ I was able to compress them all to 20-30% of their original size while maintaini
 
 ## Dependencies
 ### Option A — Standalone Executable (Recommended)
-If using compressor.exe:
+If using automozjpeg.exe:
 
 You only need:
 
 - Windows 10 or 11
-- MozJPEG (cjpeg.exe) placed in the same directory as compressor.exe
+- MozJPEG (cjpeg.exe) placed in the same directory as automozjpeg.exe
 
 No Python installation is required.
 
@@ -107,7 +107,7 @@ Install:
 
 4. MozJPEG (cjpeg)
 
-Download cjpeg.exe from [MozJPEG releases](https://github.com/mozilla/mozjpeg/releases/tag/v4.1.1) or from this repo and place it next to compressor.py.
+Download cjpeg.exe from [MozJPEG releases](https://github.com/mozilla/mozjpeg/releases/tag/v4.1.1) or from this repo and place it next to automozjpeg.py.
 
 Not affiliated with or endorsed by Mozilla.  
 © 2026 Centenarium. All rights reserved.
