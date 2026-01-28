@@ -39,7 +39,7 @@ else:
     CJPEG_CMD = str(CJPEG_PATH)
 
 def get_user_input():
-    print(f"{CLR['B']}--- AutoMJPEG Compressor ---{CLR['W']}")
+    print(f"{CLR['B']}--- AutoMozJPEG Compressor ---{CLR['W']}")
     
     # 1. Directory selection
     path_input = input(f"Paste the input directory path (or Enter for current directory): ").strip().replace('"', '')
@@ -194,6 +194,8 @@ def main():
             print(f"{CLR['G']}{descramble(SCRAMBLED_THANKS)}{CLR['W']}")
         else:
             print(f"{CLR['R']}{descramble(SCRAMBLED_WHY)}{CLR['W']}")
+
+        time.sleep(5)
             
         
 
