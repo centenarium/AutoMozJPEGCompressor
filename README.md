@@ -1,11 +1,9 @@
 # AutoMozJPEG Compressor
 A high-performance, multithreaded image compression utility built in Python and powered by the open-source MozJPEG encoder <br/>
 Designed by Centenarium, assisted by ChatGPT and Gemini
-<br/> <br/>
+<br/>
 
-MozJPEG and Mozilla are trademarks of the Mozilla Foundation.
-
-## Key features:
+### Key features  
 
 - Compress thousands of images to 20% of their original size in minutes with minimal detail loss
 - Multithreaded execution
@@ -13,15 +11,14 @@ MozJPEG and Mozilla are trademarks of the Mozilla Foundation.
 - Detailed logging and exception handling
 - Fully deterministic compression
 - Optional passthrough of non-image files
-- No installation or external dependencies required
+- No installation or external dependencies required  
 
 
 Supported image types:
-```
-.png
-.jpg
-.jpeg
-```
+- ```.png```
+- ```.jpg```
+- ```.jpeg```
+
 
 Unsupported files may be optionally copied over unchanged. 
 
@@ -112,7 +109,7 @@ Install:
 
 Download cjpeg.exe from [MozJPEG releases](https://github.com/mozilla/mozjpeg/releases/tag/v4.1.1) or from this repo and place it next to compressor.py.
 
-Not affiliated with or endorsed by Mozilla.
+Not affiliated with or endorsed by Mozilla.  
 © 2026 Centenarium. All rights reserved.
 
 
