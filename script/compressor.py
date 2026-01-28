@@ -15,7 +15,7 @@ CLR = {
     "W": "\033[0m", "B": "\033[94m", "C": "\033[96m", "P": "\033[95m"
 }
 
-# 2. Signal handler to abort safely on Ctrl+C
+# Signal handler to abort safely on Ctrl+C
 def signal_handler(sig, frame):
     print(f"\n{CLR['R']}Aborting and cleaning up related processes...{CLR['W']}")
     # The pool.shutdown(wait=False, cancel_futures=True) handles this inside main
@@ -66,7 +66,6 @@ def get_user_input():
     output_dir = input_dir / OUT_NAME
     log_file = input_dir / "compression_log.txt"
     
-    # Scan target directory
     print(f"\nScanning {CLR['Y']}{input_dir}{CLR['W']}...")
     all_files = []
     image_count = 0
