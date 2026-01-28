@@ -36,7 +36,7 @@ Both ```automozjpeg.exe``` and ```cjpeg.exe``` must be kept in the same director
 
 ### Steps
 
-1. Launch **compressor.exe**. <br/>
+1. Launch **automozjpeg.exe**. <br/>
 (Or open CMD in your folder and run `python automozjpeg.py` if using the script. Check dependencies below). 
 2. Paste desired path ```(e.g., "C:\Users\your_user\your_target_directory_here")``` or <br/> press Enter to select all images from current directory.
 3. Type desired compression quality or press Enter to go with the default 87. <br/> The lower the number, 
